@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Junaid Pets Clinic Sahiwal | Vet for dogs and cats (concept)</title>
+  <meta name="description" content="Concept landing page for Junaid Pets Clinic, a veterinary clinic on Hali Road, Sahiwal.">
+  <!-- Unsolicited prototype: stays out of search until the clinic approves it. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#fbf6ea">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="wordmark" href="#top" aria-label="Junaid Pets Clinic, back to top">
+      <span class="tiles" aria-hidden="true"><i></i><i></i><i></i></span>
+      Junaid Pets Clinic
+    </a>
+    <a class="btn btn-ink" id="bar-whatsapp" target="_blank" rel="noreferrer">WhatsApp<span class="wide-only">&nbsp;the clinic</span></a>
+  </header>
+
+  <main id="top">
+    <section class="wheel-scroll" id="wheel" aria-label="What the clinic treats">
+      <div class="wheel-stage" id="stage">
+        <div id="tints" aria-hidden="true"></div>
+        <div class="rim" id="rim" aria-hidden="true"></div>
+        <canvas class="ticks" id="ticks" aria-hidden="true"></canvas>
+        <div class="rides" id="rides"></div>
+
+        <div class="intro" id="intro">
+          <h1 class="display intro-title">Gentle hands for every pet</h1>
+          <p class="lead">Dogs, cats and puppies cared for by Dr Junaid and his team on Hali Road, Sahiwal. Open every day.</p>
+          <a class="btn btn-red" id="intro-whatsapp" target="_blank" rel="noreferrer">Message on WhatsApp</a>
+        </div>
+
+        <div class="details" id="details">
+          <div class="piece-title" aria-live="polite">
+            <h2 class="display" id="piece-name"></h2>
+            <p class="lead" id="piece-line"></p>
+          </div>
+          <a class="btn btn-ink piece-ask" id="piece-ask" target="_blank" rel="noreferrer">Ask on WhatsApp</a>
+          <div class="controls">
+            <button type="button" class="arrow" id="prev" aria-label="Previous">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg>
+            </button>
+            <ul class="names" id="names"></ul>
+            <p class="count" id="count" aria-hidden="true"></p>
+            <button type="button" class="arrow" id="next" aria-label="Next">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="still-list" id="still" hidden aria-label="What the clinic treats"></section>
+
+    <section class="rooms" aria-labelledby="rooms-title">
+      <div class="rooms-head">
+        <h2 class="display" id="rooms-title">A real clinic, not a back room</h2>
+        <p class="lead">Exam tables, drips, an ultrasound scanner and a grooming area, all under one roof on Hali Road.</p>
+      </div>
+      <div class="rooms-grid" id="rooms-grid"></div>
+    </section>
+
+    <section class="trust" aria-labelledby="trust-title">
+      <div class="trust-score">
+        <p class="trust-number" aria-hidden="true">4.8</p>
+        <h2 class="display" id="trust-title">from 186 Google reviews</h2>
+      </div>
+      <div class="trust-copy">
+        <blockquote>
+          <p>&ldquo;Dr. Junaid is extremely professional, kind, and truly cares about animals.&rdquo;</p>
+          <footer>Google review</footer>
+        </blockquote>
+        <ul class="topics">
+          <li><strong>19</strong> praise the cooperative staff</li>
+          <li><strong>9</strong> talk about cat treatment</li>
+          <li><strong>3</strong> mention parvovirus treatment</li>
+        </ul>
+        <p>One reviewer brought a sick stray cat all the way from Chichawatni for Dr Junaid to treat.</p>
+      </div>
+    </section>
+
+    <section class="visit" aria-labelledby="visit-title">
+      <div>
+        <h2 class="display" id="visit-title">Worried about your pet?</h2>
+        <p class="lead">Send a photo or a short video on WhatsApp, and come straight in. The clinic is open every day.</p>
+        <a class="btn btn-ink visit-cta" id="visit-whatsapp" target="_blank" rel="noreferrer">Message on WhatsApp</a>
+      </div>
+      <dl class="visit-list">
+        <div>
+          <dt>Open</dt>
+          <dd>Every day, 10:00 AM to 10:00 PM</dd>
+        </div>
+        <div>
+          <dt>Find us</dt>
+          <dd><a href="https://www.google.com/maps/place/Junaid+Pets+Clinic+Sahiwal/@30.6681959,73.1074819,17z" target="_blank" rel="noreferrer">Hali Road, near Gol Chakkar, next to Leopards Courier, Muslim Abad, Sahiwal</a></dd>
+        </div>
+        <div>
+          <dt>Call</dt>
+          <dd><a href="tel:+923064629198">0306 4629198</a></dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p>Concept prototype for Junaid Pets Clinic. Not an official site. Photos and details come from the clinic's public Google listing and should be confirmed by the clinic. A client whiteboard in one photo has been blurred.</p>
+    <p class="foot-mark display" aria-hidden="true">Junaid Pets</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
